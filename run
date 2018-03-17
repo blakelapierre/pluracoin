@@ -1,0 +1,3 @@
+#!/bin/sh
+
+docker run -d --rm -v ~/daemon-data:/daemon-data -p 9958:9958 blakelapierre/pluracoin-base
